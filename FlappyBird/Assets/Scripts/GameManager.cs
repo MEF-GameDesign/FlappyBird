@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
 
     public void Replay()
     {
+        Debug.Log("calisti");
         SceneManager.LoadScene(0);
     }
     
